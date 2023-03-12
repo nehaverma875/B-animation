@@ -1,0 +1,18 @@
+.btn {
+    margin: 20% 20%;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: red;
+    background-color: pink;
+    border: 10px solid rgb(235, 97, 228);
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    background-color: rgb(0, 162, 255);
+    color: rgb(247, 234, 61);
+    border-color: black;
+}
